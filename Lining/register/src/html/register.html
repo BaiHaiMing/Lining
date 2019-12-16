@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Document</title>
+    <script src="../js/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="float_head">
+        <div class="top_list_title" style="font-family: 微软雅黑;">
+            <div class="list_title_inner" style="font-family: 微软雅黑;">
+                <div class="navigation_left">
+                    <div class="logochar"></div>
+                    <div class="welcome" id="welcome">
+                        <a href="">登录</a>
+                        <div class="top_inter"></div>
+                        <a href="">注册</a>
+                    </div>
+                    <div class="shop-cart">
+                        <div class="top_inter"></div>
+                        <div class="cart-content">
+                            <a href="">
+                                <span class="cart_img"></span>
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation_center">
+                    <div class="top_left_title">
+                        <a href="">消息</a>
+                        <div class="top_inter"></div>
+                        <a href="">我的李宁</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comm_logo_contain">
+            <div class="comm_contain_left">
+                <a href="#" class="logo_img logo_img_negtive">
+                    <div class="logo_img_div logo_div_negtive"></div>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">所有分类</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">男子</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">女子</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">男童</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">女童</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">系列</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="nav_logo nav_logo_negtive"
+                        style="background-image: url(https://cdns.lining.com/postsystem/docroot/images/shoefit/D5FEF7BB1C9BD121BC641C53C13F7369.png);">
+                    </div>
+                    <div class="choice_name_span choice_name_span_negtive">韦德</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">新品</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">中国李宁</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+                <div class="logo_inter"></div>
+                <a href="#" class="choice_name choice_name_negtive">
+                    <div class="choice_name_span choice_name_span_negtive">更多品牌</div>
+                    <span class="choice_triangle choice_triangle_negtive"></span>
+                </a>
+            </div>
+            <div class="comm_contain_right">
+                <a href="#" target="_blank">
+                    <em class="contain_right"></em>
+                </a>
+                <div class="search_input">
+                    <input id="keywords_hidden" type="hidden" value="时装周">
+                    <input id="keywords" type="hidden" value="时装周">
+                    <input id="searchTemp" type="text" value maxlength="100" autocapitalize="off">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- input标签验证 -->
+    <div class="container">
+        <div id="PG_Reg">
+            <div class="PG_Reg_body">
+                <div class="PG_Reg_header">注册新用户</div>
+                <div class="PG_Reg_content">
+                    <div class="sign_in_registration">
+                        <div class="line" >
+							<input type="text"  class="ipt_t" placeholder="用户名">
+							<span class="reg-newUser-notice" style="font-family: 微软雅黑;"></span>
+                        </div>
+                        <div class="line" >
+							<input type="password" name="pwd" id="pwd" class="ipt_t" maxlength="20" autocomplete="off" placeholder="请设置密码" readonly=""style="font-family: 微软雅黑;">
+							<div class="pwd-safety-revel" style="font-family: 微软雅黑;">
+								<span class="safety-name" style="font-family: 微软雅黑;">弱</span>
+								<span class="safety-rank" style="background-color: rgb(238, 39, 55); font-family: 微软雅黑;"></span>
+								<span class="safety-rank" style="font-family: 微软雅黑;"></span>
+								<span class="safety-rank" style="font-family: 微软雅黑;"></span>
+							</div>
+                        </div>
+                        <div class="line">
+                            <input type="text"  class="ipt_t" placeholder="请确认密码">
+                        </div>
+                        <div class="line">
+                            <input type="text"  class="ipt_t" placeholder="验证手机">
+                        </div>
+                        <div class="line">
+                            <input type="text"  class="ipt_t" placeholder="验证码">
+                            <img id="yzm_img" title="看不清楚，点击获得新图片" src="https://cdns.lining.com/postsystem/docroot/images/yzmImages/6ecec93a64d5b7986d52e17ad513d1e3.jpg">
+                        </div>
+                        <div class="line">
+                            <input type="text"  class="ipt_t" placeholder="验证码">
+                            <span id="smsSend" style="font-family: 微软雅黑;">获取动态密码</span>
+                        </div>
+                        <div class="line">
+                            <input type="text"  class="ipt_t" placeholder="邮箱">
+                        </div>
+                        <div class="line" id="agreement-line" style="padding-top: 10px; margin: 18px auto; height: 30px; font-family: 微软雅黑;">
+							<input type="checkbox" name="reg_agreement" style="vertical-align: middle; margin-left: 5px; font-family: 微软雅黑;">
+							<span style="vertical-align:middle;font-size:13px;font-family:'微软雅黑';">阅读
+								《<a href="#" target="_blank" style="font-family:'微软雅黑';color:#0778f9;font-size:13px;">李宁官方网站服务协议</a>》
+								<font id="agreement" style="font-family: 微软雅黑;font-size:13px;color:#ee2737">*请阅读并勾选服务协议</font>
+							</span>
+                        </div>
+                        <div class="line" style="margin-bottom: 18px; font-family: 微软雅黑;">
+							<a href="javascript:void(0);" class="button_hy_1 reg_step" style="font-family: 微软雅黑;">会员注册</a>
+                        </div>
+                        <div class="line other-login-title" style="margin-bottom: 18px; font-family: 微软雅黑;">
+							其他账号登录
+                        </div>
+                        <div class="line other-login-plat" style="margin-bottom: 18px;">
+                            <span class="union_qq upay"></span>
+                            <span class="union_alipay upay"></span>
+                            <span class="union_weixin wpay"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="footer_list"
+    style="min-width: 1260px; width: 100%; overflow: hidden; margin: 45px 0px 28px; font-family: 微软雅黑;">
+    <div class="footer-box" id="footer" style="font-family: 微软雅黑;">
+        <div id="footer_content" class="footer_content" style="font-family: 微软雅黑;">
+
+            <div class="footer_content_item" style="font-family: 微软雅黑;">
+                <div class="item_image" style="background-position: 0px 0px; font-family: 微软雅黑;"></div>
+                <div class="item_content" style="font-family: 微软雅黑;">
+                    <a class="content_title" href="javascript:void(0);" target="_blank"
+                        style="font-family: 微软雅黑;">获取帮助</a>
+                    <div class="content_detail" style="font-family: 微软雅黑; color: #575551;">
+                        <a href="javascript:void(0);" target="_blank"
+                            style="font-family: 微软雅黑;color: #575551;">联系我们</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_content_item" style="font-family: 微软雅黑;">
+                <div class="item_image" style="background-position: -47px 0px; font-family: 微软雅黑;"></div>
+                <div class="item_content" style="font-family: 微软雅黑;">
+                    <div class="content_title" style="font-family: 微软雅黑;">防伪查询</div>
+                    <div class="content_detail" style="font-family: 微软雅黑;">
+                        <a href="javascript:void(0);" target="_blank"
+                            style="font-family: 微软雅黑;color: #575551;">输入查询码</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_content_item" style="font-family: 微软雅黑;">
+                <div class="item_image" style="background-position: -94px 0px; font-family: 微软雅黑;"></div>
+                <div class="item_content" style="font-family: 微软雅黑;">
+                    <div class="content_title" style="font-family: 微软雅黑;">售后服务</div>
+                    <div class="content_detail" style="font-family: 微软雅黑;">
+                        <a href="javascript:void(0);" id="service_show"
+                            style="font-family: 微软雅黑;color: #575551;">使用说明</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_content_item" style="font-family: 微软雅黑;">
+                <div class="item_image" style="background-position: -141px 0px; font-family: 微软雅黑;"></div>
+                <div class="item_content" style="font-family: 微软雅黑;">
+                    <div class="content_title" style="font-family: 微软雅黑;">团购服务</div>
+                    <div class="content_detail" style="font-family: 微软雅黑;">
+                        <a href="javascript:void(0);" target="_blank"
+                            style="font-family: 微软雅黑;color: #575551;">VIP客户</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear_both" style="font-family: 微软雅黑;"></div>
+        </div>
+    </div>
+
+    <hr style="width:45%;margin:0 auto;">
+
+    <div id="footerBd" style="font-family: 微软雅黑;">
+        <ul class="clearfix" style="margin-top: 28px;margin-left: 26%;">
+            <li style="font-family: 微软雅黑;">
+                <a target="_blank" href="javascript:void(0);" style="font-family: 微软雅黑;">关于李宁 </a>
+            </li>
+            <li style="font-family: 微软雅黑;">
+                <a target="_blank" href="javascript:void(0);" style="font-family: 微软雅黑;"> 法律声明 </a>
+            </li>
+            <li style="font-family: 微软雅黑;">
+                <a target="_blank" href="javascript:void(0);" style="font-family: 微软雅黑;">投资者关系 Investor
+                    Relations</a>
+            </li>
+            <li style="font-family: 微软雅黑;">
+                <a target="_blank" href="javascript:void(0);" style="font-family: 微软雅黑;"> 特许经营 </a>
+            </li>
+            <li style="font-family: 微软雅黑;">
+                <a target="_blank" href="javascript:void(0);" style="font-family: 微软雅黑;"> 合作伙伴 </a>
+            </li>
+            <li style="font-family: 微软雅黑;">
+                <a href="javascript:void(0);" id="hotLine"
+                    style="border-right: medium none; font-family: 微软雅黑;">客服热线
+                    <span class="hideSpan" style="font-family: 微软雅黑;">4006100011</span>
+                </a>
+            </li>
+        </ul>
+        <div
+            style="font-size: 12px; color: rgb(150, 148, 146); width: 100%; text-align: center; font-family: 微软雅黑;">
+            <span style="margin-left: 16px; font-family: 微软雅黑;">
+                温馨提示：近日有不法分子假冒+4006100011冒充李宁官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题，
+                请勿回拨来电号码，直接拨打李宁客服电话400-610-0011询问。
+            </span>
+        </div>
+        <div class="footerRi" style="font-family: 微软雅黑;">
+            <p style="font-family: 微软雅黑;">沪ICP备14035278号-2 <span
+                    style="margin-left: 6px; font-family: 微软雅黑;">京公网安备11011202000593</span></p>
+        </div>
+        <div class="footerRi" style="font-family: 微软雅黑;">
+            上海李宁体育用品电子商务有限公司 ©1990-2019
+        </div>
+    </div>
+
+    <div class="footer_tip" style="margin-top: 54px; font-family: 微软雅黑;">
+        <a href="javascript:void(0);" style="font-family: 微软雅黑;">
+            <img border="0" src="https://cdns.lining.com/shop/lining/theme/xth2/images/headfooter/icon.gif">
+        </a>
+        <a href="javascript:void(0);" id="Shanghai110" style="font-family: 微软雅黑;">
+            <img border="0" src="https://cdns.lining.com/shop/lining/theme/xth2/images/headfooter/shwj.jpg">
+        </a>
+        <a href="javascript:void(0);" id="ZhengxinNet" style="font-family: 微软雅黑;">
+            <img border="0" src="https://cdns.lining.com/shop/lining/theme/xth2/images/headfooter/ZhengxinNet.gif">
+        </a>
+        <a href="javascript:void(0);" style="font-family: 微软雅黑;">
+            <img src="https://cdns.lining.com/shop/lining/theme/xth2/images/headfooter/ba.png" width="32px">
+            <div style="font-size: 12px;overflow: hidden;font-family: 微软雅黑;">京公网安备</div>
+        </a>
+    </div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+#float_head {
+    min-width: 1260px;
+    width: 100%;
+    z-index: 800;
+}
+
+.top_list_title {
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.list_title_inner {
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.navigation_left {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    min-width: 400px;
+}
+
+.navigation_center {
+    margin-right: 25px;
+    float: right;
+}
+
+.logochar {
+    width: 90px;
+    height: 10px;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_009.png) no-repeat 0 -92px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    margin: 10px 15px 10px 0;
+    float: left;
+}
+
+#welcome {
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+#welcome a {
+    color: #000000;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    float: left;
+}
+
+.top_inter {
+    width: 1px;
+    height: 16px;
+    background: #565656;
+    margin: 7px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.cart_img{
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_009.png) no-repeat -166px 0;
+    float: left;
+    width: 16px;
+    height: 13px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.top_left_title a{
+    color: #000000;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+} 
+
+.comm_logo_contain {
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    background: #020202;
+}
+
+.comm_logo_contain .comm_contain_left{
+    height: 50px;
+    width: auto;
+    float: left;
+    line-height: 50px;
+    min-width: 850px;
+}
+
+.comm_logo_contain .logo_img{
+    width: 93px;
+}
+
+.comm_logo_contain a{
+    height: 5px;
+    line-height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.comm_logo_contain .logo_img_div {
+    display: block;
+    width: 53px;
+    height: 14px;
+    margin: 18px 20px;
+    background-image: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_009.png);
+    background-repeat: no-repeat;
+}
+
+.comm_logo_contain .logo_div_negtive {
+    background-position: -166px -41px;
+}
+
+.comm_logo_contain .logo_inter {
+    width: 1px;
+    height: 20px;
+    background: #4c4a46;
+    display: inline-block;
+    margin: 15px 0;
+    float: left;
+}
+
+.comm_logo_contain .choice_name {
+    padding:  0 16px;
+    position: relative;
+}
+
+.comm_logo_contain .choice_name_span_negtive{
+    color: #ffffff;
+}
+
+.comm_logo_contain .choice_name_span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+.comm_logo_contain .choice_triangle{
+    float: left;
+    width: 7px;
+    height: 4px;
+    background-image: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_009.png);
+    background-repeat: no-repeat;
+    margin: 22px 0 21px 5px;
+}
+
+.comm_logo_contain .choice_triangle_negtive{
+    background-position: -166px -14px;
+}
+
+.comm_logo_contain .nav_logo_negtive{
+    background-position: 0 0;
+}
+
+.comm_logo_contain .nav_logo {
+    float: left;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    margin: 13px 5px 13px 0;
+}
+
+.comm_logo_contain .comm_contain_right {
+    height: 50px;
+    width: auto;
+    float: right;
+    position: relative;
+    line-height: 50px;
+    min-width: 340px;
+}
+.comm_logo_contain .comm_contain_right a {
+    height: 50px;
+    width: 65px;
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    vertical-align: middle;
+    float: left;
+}
+
+.comm_logo_contain .comm_contain_right .contain_right{
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/fax_hot.gif) no-repeat;
+    width: 59px;
+    height: 45px;
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.comm_contain_right .search_input {
+    display: inline-block;
+    float: left;
+    height: 25px;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_009.png) no-repeat 0 -67px;
+    width: 211px;
+    vertical-align: middle;
+    margin: 13px 40px 12px 0;
+}
+
+.search_input input {
+    display: block;
+    float: left;
+    line-height: 18px;
+    width: 170px;
+    height: 18px;
+    border: none;
+    margin: 3px 0 2px 6px;
+    color: #C4C4C4;
+    font-style: italic;
+    font-size: 100%;
+}
+.container{
+    min-width: 990px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper{
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper-img{
+    width: 1920px;
+    margin-left: -465px;
+    position: relative;
+}
+.wrapper-img img {
+    display: block;
+    vertical-align: top;
+    border: 0;
+}
+
+.newGoods {
+    position: absolute;
+    overflow: hidden;
+    width: 854px;
+    height: 577px;
+    left: 538px;
+    top: 105px;
+}
+.newGoods ul {
+    list-style: none;
+    position: absolute;
+    width: 4270px;
+    left: 0px;
+}
+
+.newGoods ul li {
+    float: left;
+}
+
+.ulDom {
+    position: fixed;
+    width: 140px;
+    height: 420px;
+    top: 200px;
+    right: 240px;
+    z-index: 100;
+}
+.ulDom li {
+    width: 100%;
+    height: 80px;
+    background: #3b3f60;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
