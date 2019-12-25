@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 12px/1.23 Arial, "宋体", Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.footer_list{
+    min-width: 1260px;
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0 28px 0;
+}
+.footer_content {
+    width: 960px;
+    height: 90px;
+    margin: 8px auto 0;
+}
+#footerBd {
+    /* background: none repeat scroll 0 0 #000; */
+    color: #969492;
+    font-size: 12px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 13px;
+}
+.footer_tip {
+    text-align: center;
+    margin-top: 30px;
+    height: 47px;
+}
+
+.footer_content .footer_content_item {
+    width: 240px;
+    height: 60px;
+    float: left;
+    margin-bottom: 30px;
+}
+.footer_content .footer_content_item .item_image {
+    width: 46px;
+    height: 46px;
+    margin: 6px 20px 6px 14px;
+    float: left;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_footer_001.png) no-repeat;
+    overflow: hidden;
+}
+.footer_content .footer_content_item .item_content {
+    width: 159px;
+    height: 45px;
+    border-left: 1px solid #2d2a26;
+    float: left;
+    margin: 5px 0 10px 0;
+}
+.footer_content .footer_content_item .item_content .content_title {
+    display: block;
+    width: 139px;
+    height: 26px;
+    margin-left: 20px;
+    line-height: 26px;
+    color: #575551;
+    font-size: 20px;
+}
+.content_detail {
+    width: 139px;
+    height: 19px;
+    margin-left: 20px;
+    color: #575551;
+    line-height: 19px;
+}
+#footerBd ul {
+    display: inline;
+    float: left;
+    /* line-height: 60px; */
+    margin-left: 32%;
+    position: absolute;
+    top: 15px;
+}
+#footerBd ul li {
+    float: left;
+    height: 60px;
+    width: auto;
+    display: block;
+    line-height: 82px;
+}
+#footerBd ul li a {
+    border-right: 1px solid #4d4d4d;
+    color: #969492;
+    padding: 0 15px;
+    line-height: 60px;
+}
+.footerRi {
+    /* left: 37%; */
+    margin-right: 20px;
+    margin-top: 8px;
+    /* position: absolute; */
+    text-align: center;
+}
+.footerRi p {
+    margin-bottom: 3px;
+    font-family: SimHei;
+}
+.footerRi {
+    /* left: 37%; */
+    margin-right: 20px;
+    margin-top: 8px;
+    /* position: absolute; */
+    text-align: center;
+}
+.footer_tip {
+    text-align: center;
+    margin-top: 30px;
+    height: 47px;
+}
+.footer_tip a {
+    display: inline-block;
+    width: auto;
+    height: 47px;
+}   
+img {
+    vertical-align: top;
+}
+.footer_list{
+    min-width: 1260px;
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0 28px 0;
+}
+.footer_content {
+    width: 960px;
+    height: 90px;
+    margin: 8px auto 0;
+}
+#footerBd {
+    /* background: none repeat scroll 0 0 #000; */
+    color: #969492;
+    font-size: 12px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 13px;
+}
+.footer_tip {
+    text-align: center;
+    margin-top: 30px;
+    height: 47px;
+}
+
+.footer_content .footer_content_item {
+    width: 240px;
+    height: 60px;
+    float: left;
+    margin-bottom: 30px;
+}
+.footer_content .footer_content_item .item_image {
+    width: 46px;
+    height: 46px;
+    margin: 6px 20px 6px 14px;
+    float: left;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/comm/global_footer_001.png) no-repeat;
+    overflow: hidden;
+}
+.footer_content .footer_content_item .item_content {
+    width: 159px;
+    height: 45px;
+    border-left: 1px solid #2d2a26;
+    float: left;
+    margin: 5px 0 10px 0;
+}
+.footer_content .footer_content_item .item_content .content_title {
+    display: block;
+    width: 139px;
+    height: 26px;
+    margin-left: 20px;
+    line-height: 26px;
+    color: #575551;
+    font-size: 20px;
+}
+.content_detail {
+    width: 139px;
+    height: 19px;
+    margin-left: 20px;
+    color: #575551;
+    line-height: 19px;
+}
+#footerBd ul {
+    display: inline;
+    float: left;
+    /* line-height: 60px; */
+    margin-left: 32%;
+    position: absolute;
+    top: 15px;
+}
+#footerBd ul li {
+    float: left;
+    height: 60px;
+    width: auto;
+    display: block;
+    line-height: 82px;
+}
+#footerBd ul li a {
+    border-right: 1px solid #4d4d4d;
+    color: #969492;
+    padding: 0 15px;
+    line-height: 60px;
+}
+.footerRi {
+    /* left: 37%; */
+    margin-right: 20px;
+    margin-top: 8px;
+    /* position: absolute; */
+    text-align: center;
+}
+.footerRi p {
+    margin-bottom: 3px;
+    font-family: SimHei;
+}
+.footerRi {
+    /* left: 37%; */
+    margin-right: 20px;
+    margin-top: 8px;
+    /* position: absolute; */
+    text-align: center;
+}
+.footer_tip {
+    text-align: center;
+    margin-top: 30px;
+    height: 47px;
+}
+.footer_tip a {
+    display: inline-block;
+    width: auto;
+    height: 47px;
+}   
+img {
+    vertical-align: top;
+}

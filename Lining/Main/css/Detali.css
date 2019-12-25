@@ -1,0 +1,237 @@
+.content958 {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.product_detail_full_section {
+    float: left;
+    margin-top: 10px;
+    width: 1096px;
+}
+
+#basic_info .imgbox {
+    float: left;
+    width: 420px;
+
+}
+
+#basic_info .imgbox .imgshowbox {
+    height: 370px;
+    margin: 0 20px;
+    text-align: left;
+    width: 370px;
+    background-color: aqua;
+}
+
+#thumblist ul {
+    float: left;
+    margin-left: 20px;
+}
+
+#thumblist ul li {
+    border: 1px solid #CFCECE;
+    cursor: pointer;
+    float: left;
+    height: 60px;
+    margin: 0 5px 5px 0;
+    width: 60px;
+}
+
+#thumblist ul li img {
+    width: 60px;
+    height: 60px;
+}
+
+#basic_info .shadow {
+    float: left;
+    width: 1px;
+    border-left: 1px dotted #c7c7c7;
+    height: 380px;
+}
+
+#basic_info .rightparts {
+    float: left;
+    width: 516px;
+    height: 437px;
+    overflow: hidden;
+}
+
+#pd_desc {
+    padding-left: 20px;
+    width: auto;
+}
+
+.product_name {
+    font-size: 16px;
+    color: #000;
+    padding: 10px 0 8px 20px;
+}
+
+.goods_promotion {
+    overflow: hidden;
+    margin: 0px 0px 8px 20px;
+    color: red;
+}
+
+.background-gray {
+    position: relative;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background: #f5f5f5;
+}
+
+#pd_desc .listPrice {
+    display: block;
+    margin: 7px 0;
+    color: #808080;
+}
+
+#pd_desc .listPrice .t {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: left;
+    width: 60px;
+}
+
+#pd_desc .listPrice .b {
+    text-decoration: line-through;
+}
+
+#pd_desc .listPrice .price {
+    font-size: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+    color: red;
+}
+
+.minImg img {
+    width: 370px;
+    height: 370px;
+}
+
+.maxImg {
+    width: 355.55px;
+    height: 355.55px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    /* right: -450px; */
+    left: 823px;
+    box-sizing: border-box;
+    top: 80px;
+    z-index: 999;
+}
+
+ .img-mask {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 90px;
+    left: 422px;
+    z-index: 2;
+    display: none;
+}
+
+.maxImg img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+}
+#choicearea {
+    min-height: 200px;
+    float: left;
+    overflow: hidden;
+}
+.extrclass_top_bg {
+    padding-left: 20px;
+    width: 500px;
+    padding-bottom: 15px;
+    min-height: 200px;
+    position: relative;
+    /* background-color: darkcyan; */
+}
+.gray_title {
+    clear: both;
+    color: #666;
+    display: block;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+.thumblist{
+    display: block;
+    border: 1px solid #EE2E25;
+    cursor: pointer;
+    float: left;
+    height: 60px;
+    margin: 0 5px 5px 20px;
+    width: 60px;
+}
+.thumblist img {
+    width: 60px;
+    height: 60px;
+}
+.reduce {
+    display: block;
+    float: left;
+    border: 1px solid #DBDBDB;
+    width: 7px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 2px;
+    line-height: 13px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 3px;
+}
+.quantity {
+    border: 1px solid #989898;
+    height: 18px;
+    line-height: 18px;
+    padding: 0;
+    text-align: center;
+    margin: 0 5px 0 5px;
+    float: left;
+    width: 30px;
+}
+.reduca {
+    display: block;
+    float: left;
+    border: 1px solid #DBDBDB;
+    width: 7px;
+    height: 13px;
+    margin-top: 2px;
+    line-height: 13px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 3px;
+}
+#checksize {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/goods/size_ico.gif) no-repeat scroll 0 0 transparent;
+    margin-left: 10px;
+    padding-left: 15px;
+    color: #000;
+}
+#addtonowcart {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/goods/add_now_buy.png) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 43px;
+    width: 144px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+}
+#addtoshoppingcar {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/goods/add_shop_cart.png) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 43px;
+    width: 144px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+}

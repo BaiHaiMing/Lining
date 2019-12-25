@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    outline: none;
+}
+
+.box-top {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 79px;
+    background-color: rgb(238, 239, 239);
+    min-width: 1260px;
+    font-family: 微软雅黑;
+}
+
+.PG_Reg {
+    margin: 0 auto;
+    width: 990px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.PG_Reg .PG_Reg_body .PG_Reg_header {
+    height: 78px;
+    line-height: 78px;
+    margin: 0 90px;
+    border-bottom: 1px dashed #e2e2e2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: '微软雅黑';
+}
+
+.PG_Reg_content {
+    overflow: auto;
+    zoom: 1;
+    margin: 0 90px;
+}
+
+.login_way {
+    width: 810px;
+    height: 58px;
+    margin-bottom: 18px;
+}
+
+.login_way ul li.cuA {
+    border-bottom: 5px solid #ee2737 !important;
+    color: #333333;
+}
+
+.login_way ul li {
+    float: left;
+    width: 404px;
+    border-bottom: 5px solid #e2e2e2;
+    cursor: pointer;
+    height: 58px;
+    line-height: 66px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    font-size: 16px;
+    color: #a9a9a9;
+}
+
+.PG_Reg_content .line {
+    width: 374px;
+    margin: 0 auto 22px;
+    box-sizing: border-box;
+}
+
+.relative-posit {
+    position: relative;
+}
+
+.PG_Reg_content input.ipt_t {
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    width: 374px;
+    ;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    padding-left: 16px;
+    color: #555;
+}
+
+.PG_Reg_content .login-a-href a {
+    color: #808080;
+    float: left;
+    font-size: 15px;
+}
+
+.button_hy_1 {
+    background: #ee2737;
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 55px;
+    font-family: '微软雅黑';
+}
+
+.loginView {
+    display: none
+}
+.loginViewCurrent {
+    display: block
+}
+
+.PG_Reg_content .other-login-title {
+    color: #808080;
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+
+.PG_Reg_content .other-login-plat .union_qq {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png) no-repeat 0 0;
+}
+
+.PG_Reg_content .other-login-plat .union_alipay {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png) no-repeat -107px 0;
+}
+
+.PG_Reg_content .other-login-plat span:hover {
+    background-image: url('https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login_active.png') !important;
+}
+
+.PG_Reg_content .other-login-plat .union_weixin {
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/login_register/union_login.png) no-repeat -213px 0;
+}
+
+.PG_Reg_content .other-login-plat a {
+    display: inline-block;
+    height: 49px;
+    width: 50px;
+}

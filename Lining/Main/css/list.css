@@ -1,0 +1,319 @@
+.main_content_wrapper {
+    margin: 40px auto 0;
+    position: relative;
+    width: 1260px;
+    overflow: hidden;
+}
+
+.left_nav {
+    float: left;
+    overflow: hidden;
+    width: 210px;
+    height: auto;
+    overflow: hidden;
+}
+
+.right_nav {
+    float: left;
+    overflow: hidden;
+    width: 1040px;
+    margin-left: 10px;
+}
+
+.goodsList-new-searchCond {
+    width: 1040px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cate_search_bar {
+    width: 100%;
+    height: 40px;
+    background: #f0f0f0;
+}
+
+.cate_search_name {
+    width: 85px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    color: #000000;
+}
+
+.cate_search_title {
+    width: 65px;
+    height: 40px;
+    float: left;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.cate_search_title span {
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: #000000;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.cate_search_title .desc {
+    display: block;
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin: 16px 0;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/goodsList/goodsListIcon_01.png) 0 -8px no-repeat;
+}
+
+.cate_search_cost {
+    width: auto;
+    height: 40px;
+    float: left;
+}
+
+.cate_search_cost input {
+    width: 40px;
+    height: 20px;
+    display: block;
+    float: left;
+    padding: 0 5px;
+    margin: 9px;
+    border: 1px solid #c9c9c9;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    background: #ffffff;
+}
+
+.cate_search_cost span {
+    display: block;
+    float: left;
+    width: auto;
+    height: 20px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+.cate_search_cost div {
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin: 10px 0;
+    line-height: 20px;
+    text-align: center;
+    background: #ed2937;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cate_page_search {
+    height: 40px;
+    width: auto;
+    float: right;
+    text-align: right;
+}
+
+.cate_page_search span {
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.cate_page_search .page_next {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    margin: 15px 10px;
+    background: url(https://cdns.lining.com/shop/lining/theme/xth2/images/goodsList/goodsListIcon_01.png) -9px -16px no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.cate_search_content {
+    width: 100%;
+
+    height: auto;
+}
+
+.hselect {
+    width: 1040px;
+    height: 1665px;
+
+    /* height: auto; */
+}
+
+.selItem {
+    width: 208px;
+    height: 323px;
+    margin-top: 10px;
+    float: left;
+    /* border-bottom: 1px solid #e7e7e7; */
+    /* background-color: aqua; */
+}
+
+.selItem:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.selItem .cart_top {
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    border: 1px solid #000;
+}
+
+.selMainPic {
+    display: block;
+    width: 198px;
+    height: 226px;
+    margin: 5px;
+    background: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.selMainPic img {
+    width: 198px;
+    height: 226px;
+}
+
+.hgoodsName {
+    height: 35px;
+    margin: 15px 10px 5px;
+    word-break: normal;
+}
+
+.hselect .price {
+    height: 20px;
+    margin: 5px 10px;
+    text-align: right;
+    line-height: 20px;
+    color: #e71b33;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.selItem:hover .price {
+    color: #ffffff;
+}
+
+.hgoodsLine {
+    height: 5px;
+    margin: 0 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.selItem:hover .hgoodsLine {
+    border-bottom: 1px solid red;
+}
+
+.cate_search_footer {
+    width: 100%;
+    height: 35px;
+    background: #f0f0f0;
+}
+
+.cate_search_footer .paging {
+    width: auto;
+    height: 35px;
+    display: block;
+    float: right;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+.cate_search_footer .paging a {
+    width: auto;
+    height: 35px;
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 35px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.page a:hover {
+    background: #09F;
+    color: #FFF;
+    /* border-color: #09F */
+}
+
+.page .active {
+    background: #CCC
+}
+
+.page a:active {
+    opacity: .8
+}
+
+.cate_search_footer .paging span {
+    display: inline-block;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+}
+
+.cart {
+    height: 160px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -50px;
+    background: #000;
+    /* border: 1px solid #000; */
+}
+
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.cart_total {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.addCart {
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+    text-align: center
+}
+
+.addCart:hover {
+    border: 1px solid red;
+    color: red;
+}
